@@ -18,7 +18,7 @@ The project can be adjusted to support a different caption image.
 2. In `base.html`, change the `title`and `h1` values.
 3. Change the welcome image for the index page (`images/captionthis.jpeg`).
 4. Change the 404 image (`images/404.jpeg`).
-5. In `captionit.py`, change the caption area (in pixels), font size, and number of lines values on line  based on the new image.
+5. In `captionit.py`, change the caption area (in pixels), font size, and number of lines values based on the new image.
 
 	Example caption area values:
 	
