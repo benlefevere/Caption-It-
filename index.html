@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+
+<center>
+
+<div class="caption">
+<div class="img-thumbnail"><container><img class="img-responsive" src="/images/captionthis.jpeg"></container>
+</div>
+</div>
+
+<div class="captionform">
+<form action="/makecaption" method="post" id="captionform">
+<div class="form-group">
+  <input type="text" name="caption" class="form-control" placeholder="Add your caption here" autofocus>
+  <input type="submit" class="btn btn-normal btn-default" value="Caption it!">
+</div>
+</form>
+</div>
+</center>
+
+
+{% endblock %}

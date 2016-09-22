@@ -1,0 +1,19 @@
+.caption {
+  max-width: 1000px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.captionform{
+  margin: 10px;
+  max-width: 420px;
+}
+
+.btn{
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+
+.copyfield{
+  margin-top: 14px;
+}

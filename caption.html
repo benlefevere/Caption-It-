@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<center>
+
+<div class="caption">
+<div class="img-thumbnail"><container><img class="img-responsive" src="{{ captionimg }}"></container>
+</div>
+</div>
+
+<h3>Share this caption:</h3>
+
+<input type="text" id="website" class="form-control copyfield" value="{{ urllink }}" style="width: 300px;" />
+
+</center>
+
+{% endblock %}
